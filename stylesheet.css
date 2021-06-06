@@ -1,0 +1,88 @@
+body{
+    background-color: pink;
+}
+.page{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    border-color: black;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    text-align: right;
+}
+.navbar ul li{
+	list-style: none;
+    display: inline-block;
+	margin: 10px 20px 10px 20px;
+	position: relative;
+    font-size: small;
+    font-family: cursive;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: 0.5s;
+}
+.navbar ul li:Hover::after{
+	width: 100%;
+    height: 15%;
+}
+.content{
+    width: 90%;
+    margin: 0 Auto;
+}
+h1{
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    font-family:fantasy;
+}
+.description{
+    width: fit-content;
+    background-color:thistle;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#frontimg{
+    padding: 1%;
+	width: 10%;
+    margin: 0 auto;
+}
+.gallery{
+    margin: 10%;
+}
+.gallery img{
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    width: 200px;
+    border: 10px ridge purple;
+}
+.donate{
+    padding: 10px;
+    margin: 0 auto;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    color:white;
+    padding: auto;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+}
